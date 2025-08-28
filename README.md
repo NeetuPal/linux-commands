@@ -11,3 +11,15 @@
   ```sh
   ls -lt
   ```
+- Least recently sort files and folder
+  ```sh
+  ls -ltr
+  ```
+- Listing lnclude hidden files
+  ```sh
+  ls -alt
+  ```
+- Find subdirectories included recursively(-nr for newest first option)
+  ```sh
+  find . -type f -exec stat -f "%m %N" {} \; | sort -n
+  ```
