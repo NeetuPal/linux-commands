@@ -19,7 +19,7 @@
   ```sh
   ls -alt
   ```
-- Find subdirectories included recursively(-nr for newest first option)
+- filenames and runs them as arguments to ls -lt
   ```sh
-  find . -type f -exec stat -f "%m %N" {} \; | sort -n
+  grep -ril "user" . | xargs ls -lt
   ```
