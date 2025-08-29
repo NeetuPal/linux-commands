@@ -19,7 +19,15 @@
   ```sh
   ls -alt
   ```
-- filenames and runs them as arguments to ls -lt
+- Filter filenames and runs them as arguments to ls -lt
   ```sh
   grep -ril "user" . | xargs ls -lt
+  ```
+- Find filename
+  ```sh
+  find . -name *create*.sh
+  ```
+- Find location of file name
+  ```sh
+  which ./create-aws-user.sh
   ```
