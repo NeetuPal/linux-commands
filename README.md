@@ -31,3 +31,7 @@
   ```sh
   which ./create-aws-user.sh
   ```
+- Use quotes for copy
+  ```sh
+  cp "/Users/neetupal/Downloads/project 2/secrets-setup.sh" .
+  ```
