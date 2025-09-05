@@ -23,7 +23,7 @@
   ```sh
   grep -ril "user" . | xargs ls -lt
   ```
-- Find filename
+- Find filename(.,~)
   ```sh
   find . -name *create*.sh
   ```
