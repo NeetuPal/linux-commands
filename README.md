@@ -35,3 +35,7 @@
   ```sh
   cp "/Users/neetupal/Downloads/project 2/secrets-setup.sh" .
   ```
+- This prints the absolute (full) path
+  ```sh
+  readlink -f DevSetup.ps1
+  ```
