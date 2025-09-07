@@ -27,7 +27,7 @@
   ```sh
   find . -name *create*.sh
   ```
-- Find location of file name
+- Find location of file name If file is in your $PATH
   ```sh
   which ./create-aws-user.sh
   ```
