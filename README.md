@@ -25,7 +25,7 @@
   ```
 - Find filename(.,~)
   ```sh
-  find . -name *create*.sh
+  find . -name '*create*.sh'
   ```
 - Find location of file name If file is in your $PATH
   ```sh
