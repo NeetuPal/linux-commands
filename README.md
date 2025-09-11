@@ -1,4 +1,4 @@
-# linux_command_cheatSheet
+# linux-command-cheatSheet
 
 - Remove everything ctrl+u
 - Cut left word ctrl+w
