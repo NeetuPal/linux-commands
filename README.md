@@ -51,3 +51,7 @@ sudo useradd -m <username>
 ```
 scp -i "D:\keypair.pem" rough.txt ubuntu@54.197.12.113:/home/ubuntu
 ```
+### If the folder new is inside your current working directory
+```
+scp -i '/d/keypair.pem' -r new ubuntu@54.197.12.113:/home/ubuntu/
+```
