@@ -39,3 +39,11 @@
   ```sh
   readlink -f DevSetup.ps1
   ```
+### Create group
+```
+sudo groupadd <group_name>
+```
+### Create user
+```
+sudo useradd -m <username>
+```
