@@ -47,3 +47,7 @@ sudo groupadd <group_name>
 ```
 sudo useradd -m <username>
 ```
+### copy from local to remote
+```
+scp -i "D:\keypair.pem" rough.txt ubuntu@54.197.12.113:/home/ubuntu
+```
