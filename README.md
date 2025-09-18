@@ -24,10 +24,9 @@
   ```sh
   grep -ril "user" . | xargs ls -lt
   ```
-- Find filename(.,~) with number list(nl)
+- ### Find filename(.,~) with number list(nl)
   ```sh
  find . -name '*create*.sh' | nl
-
   ```
 - Find location of file name If file is in your $PATH
   ```sh
