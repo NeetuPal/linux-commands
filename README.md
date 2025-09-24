@@ -56,3 +56,7 @@ scp -i "D:\keypair.pem" rough.txt ubuntu@54.197.12.113:/home/ubuntu
 ```
 scp -i '/d/keypair.pem' -r new ubuntu@54.197.12.113:/home/ubuntu/
 ```
+### SSH refuses to use it because it’s unsafe — someone else could potentially access the key
+```
+chmod 400 keypair.pem
+```
