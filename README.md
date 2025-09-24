@@ -60,3 +60,8 @@ scp -i '/d/keypair.pem' -r new ubuntu@54.197.12.113:/home/ubuntu/
 ```
 chmod 400 keypair.pem
 ```
+### Overwrite your local rough.txt with the one from the remote server
+```
+rsync -avz -e "ssh -i /Users/neetupal/Downloads/keypair.pem" ubuntu@54.147.129.41:/home/ubuntu/rough.txt ./rough.txt
+
+```
